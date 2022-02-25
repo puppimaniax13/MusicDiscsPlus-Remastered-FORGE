@@ -1,0 +1,1 @@
+#This is just the process of how I got certain repetitive code.
