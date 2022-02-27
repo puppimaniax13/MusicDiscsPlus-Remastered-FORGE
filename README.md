@@ -91,3 +91,11 @@ ____________
 ## Contributors
 
 At the moment I am a Solo-Developer, a team/group would be nice to work with. I do not have a discord server either but feel free to contact me if you want to start or have me join your team. Any role would be nice, even someone to maintain a discord server.
+
+_________
+### To-Do List
+
+- [ ] Add Advancements
+- [ ] Port to lower versions (1.17,1.16,1.15,ect)
+- [ ] Make a full mod
+- [ ] Make a full resource pack
