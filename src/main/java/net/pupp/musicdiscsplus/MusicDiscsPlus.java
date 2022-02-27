@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.pupp.musicdiscsplus.items.MusicDiscsItem;
+import net.pupp.musicdiscsplus.items.SoundInit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -25,6 +26,7 @@ public class MusicDiscsPlus
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         MusicDiscsItem.register(eventBus);
+        SoundInit.DISC_SOUNDS.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register ourselves for server and other game events we are interested in
